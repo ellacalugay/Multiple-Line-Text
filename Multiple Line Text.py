@@ -11,9 +11,10 @@ with open ("mylife.txt", "w") as multiple_line_text:
     # Write the entered line into the file using the write() function.
         multiple_line_text.write(user_input + "\n")
         while True:
-    # Ask the user if they want to enter another line of input.
+        # Ask the user if they want to enter another line of input.
             user_response = input("Do you want to enter another line? (y/n): ")
-        # Check if the user wants to continue.
+            # Check if the user wants to continue.
+            if user_response.lower() == "y":
             # exit the loop and continue executing the code
         # Check if the user wants to stop.
             # exit the loop and stop the execution of the code
