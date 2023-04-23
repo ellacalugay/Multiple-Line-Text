@@ -3,6 +3,7 @@
 
 # Pseudocode
 # Open a file "mylife.txt" in write mode.
+with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
 # Inside the loop, ask the user to input a line of text.
     # Write the entered line into the file using the write() function.
