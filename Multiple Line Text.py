@@ -5,6 +5,7 @@
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
+    while True:
 # Inside the loop, ask the user to input a line of text.
     # Write the entered line into the file using the write() function.
     # Ask the user if they want to enter another line of input.
