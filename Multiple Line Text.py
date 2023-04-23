@@ -23,6 +23,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
             else:
                 # If the user enters an invalid input, prompt them to enter a valid one.
                 print("Invalid input. Please enter 'y' or 'n'.")
-    # Check if the user wants to stop again (in case they entered 'y' in the previous loop).
+        # Check if the user wants to stop again (in case they entered 'y' in the previous loop).
+        if user_response.lower() == "n":
             # exit the outer loop and stop the execution of the code
 # End of the code.
