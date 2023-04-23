@@ -16,7 +16,9 @@ with open ("mylife.txt", "w") as multiple_line_text:
             # Check if the user wants to continue.
             if user_response.lower() == "y":
                 break # exit the loop and continue executing the code
-        # Check if the user wants to stop.
+            # Check if the user wants to stop.
+            elif user_response.lower() == "n":
+                print("Thanks for using the program!")
             # exit the loop and stop the execution of the code
         # If the user enters an invalid input, prompt them to enter a valid one.
     # Check if the user wants to stop again (in case they entered 'y' in the previous loop).
