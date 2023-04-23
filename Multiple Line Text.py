@@ -7,6 +7,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
     while True:
 # Inside the loop, ask the user to input a line of text.
+        user_input = str(input("Enter a line of text: "))
     # Write the entered line into the file using the write() function.
     # Ask the user if they want to enter another line of input.
         # Check if the user wants to continue.
