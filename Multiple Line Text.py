@@ -15,7 +15,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
             user_response = input("Do you want to enter another line? (y/n): ")
             # Check if the user wants to continue.
             if user_response.lower() == "y":
-            # exit the loop and continue executing the code
+                break # exit the loop and continue executing the code
         # Check if the user wants to stop.
             # exit the loop and stop the execution of the code
         # If the user enters an invalid input, prompt them to enter a valid one.
