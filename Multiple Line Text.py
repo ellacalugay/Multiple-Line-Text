@@ -106,4 +106,8 @@ with open("mylife.txt", "r") as file:
     text_widget.insert(tk.END, "My Life\n\n", "title")
     text_widget.insert(tk.END, file.read(), "body")
 
+# Set the tags for the text widget
+text_widget.tag_config("title", font=("Helvetica", 25), justify="center")
+text_widget.tag_config("body", font=("Arial", 15), justify="left")
+
 # End of the code.
