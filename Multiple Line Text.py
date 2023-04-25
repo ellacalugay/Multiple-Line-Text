@@ -86,4 +86,8 @@ with open ("mylife.txt", "w") as multiple_line_text:
         if user_response.lower() == "n":
             break  # exit the outer loop and stop the execution of the code
 
+# Create a tkinter window
+window = tk.Tk()
+window.title("PROGRAM 3")
+
 # End of the code.
