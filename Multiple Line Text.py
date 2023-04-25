@@ -49,7 +49,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
         multiple_line_text.write(user_input + "\n")
         while True:
         # Ask the user if they want to enter another line of input.
-            user_response = input("Do you want to enter another line? (y/n): ")
+            user_response = input(Back.CYAN + "\n" + "\033[1mDo you want to enter another line? (y/n): \033[0m" + "\033[38;5;141m ")
             # Check if the user wants to continue.
             if user_response.lower() == "y":
                 break # exit the loop and continue executing the code
