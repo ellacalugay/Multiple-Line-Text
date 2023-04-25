@@ -82,4 +82,6 @@ with open ("mylife.txt", "w") as multiple_line_text:
             else:
                 # If the user enters an invalid input, prompt them to enter a valid one
                 print(Fore.RED + "\033[3mInvalid input. Please enter 'y' or 'n'. \033[0m")
+        # Check if the user wants to stop again (in case they entered 'y' in the previous loop)
+        if user_response.lower() == "n":
 # End of the code.
