@@ -78,4 +78,5 @@ with open ("mylife.txt", "w") as multiple_line_text:
                 print("{:^62}".format("\033[38;5;139;1m\033[48;5;225mThanks for using the program!\033[0m"))
                 # Use string formatting to center and add color to the flower emoji border again
                 print("{:^30}".format("\x1b[95m 🌸" * 10 + "\x1b[0m"))
+                break  # exit the loop and stop the execution of the code
 # End of the code.
