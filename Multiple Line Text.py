@@ -100,7 +100,7 @@ text_widget.pack(fill=tk.BOTH, expand=1)
 
 # Open the "mylife.txt" file in read mode
 with open("mylife.txt", "r") as file:
-    # Read the contents of the file and insert it into the text widget
-    text_widget.insert(tk.END, file.read())
-
+    # Delete the current contents of the text widget
+    text_widget.delete("1.0", tk.END)
+    
 # End of the code.
