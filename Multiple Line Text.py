@@ -21,6 +21,10 @@ text = "Life in multiple line contents"
 font = "standard"
 color = "yellow"
 
+# Pyfiglet for the header
+result = pyfiglet.figlet_format(text, font=font, width=150)
+colored_result = colored(result, color)
+
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
