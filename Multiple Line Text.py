@@ -58,5 +58,8 @@ with open ("mylife.txt", "w") as multiple_line_text:
                 print("\n")
                 # Create a progress bar object
                 progress_bar = tqdm(total=total_iterations)
-            print("Thanks for using the program!")
+                
+                # Loop through the iterations
+                for i in range(total_iterations):
+                    time.sleep(0.1)
 # End of the code.
