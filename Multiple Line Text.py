@@ -55,12 +55,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
                 break # exit the loop and continue executing the code
             # Check if the user wants to stop.
             elif user_response.lower() == "n":
-                print("Thanks for using the program!")
-                break # exit the loop and stop the execution of the code
-            else:
-                # If the user enters an invalid input, prompt them to enter a valid one.
-                print("Invalid input. Please enter 'y' or 'n'.")
-        # Check if the user wants to stop again (in case they entered 'y' in the previous loop).
-        if user_response.lower() == "n":
-            break # exit the outer loop and stop the execution of the code
+                # Create a progress bar object
+                progress_bar = tqdm(total=total_iterations)
+            print("Thanks for using the program!")
 # End of the code.
