@@ -71,4 +71,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
 
                 # Print a newline character to add spacing
                 print("\n")
+
+                # Use string formatting to center and add color to the flower emoji border
+                print("{:^30}".format("\x1b[95m 🌸" * 10 + "\x1b[0m"))
 # End of the code.
