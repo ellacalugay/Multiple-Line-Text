@@ -17,6 +17,10 @@ def flower_design():
 # Define the text to display
 text = "Life in multiple line contents"
 
+# Set font and color for the header 
+font = "standard"
+color = "yellow"
+
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
