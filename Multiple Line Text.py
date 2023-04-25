@@ -36,6 +36,9 @@ for line in colored_result.split("\n"):
 flower_design()
 print("\n".center(80))
 
+# Set the number of iterations
+total_iterations = 100
+
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
