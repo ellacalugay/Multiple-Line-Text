@@ -98,4 +98,7 @@ scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 text_widget = tk.Text(window, yscrollcommand=scrollbar.set, font=("Arial", 14), fg="pink", bg="black")
 text_widget.pack(fill=tk.BOTH, expand=1)
 
+# Open the "mylife.txt" file in read mode
+with open("mylife.txt", "r") as file:
+
 # End of the code.
