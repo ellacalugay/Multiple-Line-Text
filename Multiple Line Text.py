@@ -94,4 +94,8 @@ window.title("PROGRAM 3")
 scrollbar = tk.Scrollbar(window)
 scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
+# Create a text widget with modified font, color, and background
+text_widget = tk.Text(window, yscrollcommand=scrollbar.set, font=("Arial", 14), fg="pink", bg="black")
+text_widget.pack(fill=tk.BOTH, expand=1)
+
 # End of the code.
