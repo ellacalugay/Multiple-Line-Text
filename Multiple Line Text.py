@@ -65,7 +65,10 @@ with open ("mylife.txt", "w") as multiple_line_text:
             
                     # update the progress bar
                     progress_bar.update(1)
-                    
+
                 # Close the progress bar
                 progress_bar.close()
+
+                # Print a newline character to add spacing
+                print("\n")
 # End of the code.
