@@ -32,6 +32,10 @@ flower_design()
 for line in colored_result.split("\n"):
     print(line.center(80))
 
+# Calling the define function again
+flower_design()
+print("\n".center(80))
+
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
