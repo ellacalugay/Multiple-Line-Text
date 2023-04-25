@@ -55,6 +55,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
                 break # exit the loop and continue executing the code
             # Check if the user wants to stop.
             elif user_response.lower() == "n":
+                print("\n")
                 # Create a progress bar object
                 progress_bar = tqdm(total=total_iterations)
             print("Thanks for using the program!")
