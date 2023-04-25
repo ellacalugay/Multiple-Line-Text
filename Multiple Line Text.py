@@ -62,4 +62,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
                 # Loop through the iterations
                 for i in range(total_iterations):
                     time.sleep(0.1)
+            
+                    # update the progress bar
+                    progress_bar.update(1)
 # End of the code.
