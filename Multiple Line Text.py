@@ -52,6 +52,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
             user_response = input(Back.CYAN + "\n" + "\033[1mDo you want to enter another line? (y/n): \033[0m" + "\033[38;5;141m ")
             # Check if the user wants to continue.
             if user_response.lower() == "y":
+                print("\n")
                 break # exit the loop and continue executing the code
             # Check if the user wants to stop.
             elif user_response.lower() == "n":
@@ -112,5 +113,3 @@ text_widget.tag_config("body", font=("Arial", 15), justify="left")
 
 # Run the tkinter event loop
 window.mainloop()
-
-# End of the code.
