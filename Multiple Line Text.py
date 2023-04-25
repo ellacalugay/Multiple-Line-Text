@@ -10,6 +10,10 @@ from tqdm import tqdm
 import time
 import tkinter as tk
 
+# Defining flower design function for the border design of Activity title.
+def flower_design():
+    print("🌷" * 62 )
+    
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
