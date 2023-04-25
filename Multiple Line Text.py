@@ -110,4 +110,7 @@ with open("mylife.txt", "r") as file:
 text_widget.tag_config("title", font=("Helvetica", 25), justify="center")
 text_widget.tag_config("body", font=("Arial", 15), justify="left")
 
+# Run the tkinter event loop
+window.mainloop()
+
 # End of the code.
