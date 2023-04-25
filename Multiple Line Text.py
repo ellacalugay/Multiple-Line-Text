@@ -79,4 +79,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
                 # Use string formatting to center and add color to the flower emoji border again
                 print("{:^30}".format("\x1b[95m 🌸" * 10 + "\x1b[0m"))
                 break  # exit the loop and stop the execution of the code
+            else:
+                # If the user enters an invalid input, prompt them to enter a valid one
+                print(Fore.RED + "\033[3mInvalid input. Please enter 'y' or 'n'. \033[0m")
 # End of the code.
