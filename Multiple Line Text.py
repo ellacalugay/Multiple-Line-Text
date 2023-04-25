@@ -2,6 +2,14 @@
 # Writing a method in python that writes multiple line of text contents into another text file.
 
 # Pseudocode
+# Import necessary modules
+import pyfiglet
+from colorama import Back, Fore
+from termcolor import colored
+from tqdm import tqdm
+import time
+import tkinter as tk
+
 # Open a file "mylife.txt" in write mode.
 with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
