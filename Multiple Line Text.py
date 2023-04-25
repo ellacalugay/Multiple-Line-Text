@@ -102,5 +102,8 @@ text_widget.pack(fill=tk.BOTH, expand=1)
 with open("mylife.txt", "r") as file:
     # Delete the current contents of the text widget
     text_widget.delete("1.0", tk.END)
-    
+    # Insert the new text with tags
+    text_widget.insert(tk.END, "My Life\n\n", "title")
+    text_widget.insert(tk.END, file.read(), "body")
+
 # End of the code.
