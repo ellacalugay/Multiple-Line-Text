@@ -90,4 +90,8 @@ with open ("mylife.txt", "w") as multiple_line_text:
 window = tk.Tk()
 window.title("PROGRAM 3")
 
+# Create a scrollbar
+scrollbar = tk.Scrollbar(window)
+scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
 # End of the code.
