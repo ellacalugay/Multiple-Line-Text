@@ -44,7 +44,7 @@ with open ("mylife.txt", "w") as multiple_line_text:
 # Create a while loop with a True condition.
     while True:
 # Inside the loop, ask the user to input a line of text.
-        user_input = str(input("Enter a line of text: "))
+        user_input = str(input("\033[38;5;139;1m\033[48;5;225mEnter a line of text: \033[0m \033[38;5;226m"))
     # Write the entered line into the file using the write() function.
         multiple_line_text.write(user_input + "\n")
         while True:
